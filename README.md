@@ -1,4 +1,5 @@
 <img width="910" height="213" alt="lockup-knowledge-neuron" src="https://github.com/user-attachments/assets/ffbcdc84-3d70-4c50-921a-6a889b6374da" />
+
 # 🧠 BasicScienceVault
 
 **An open Obsidian vault that reviews the foundations of neuroscience – mathematics, physics, chemistry, biology, methods, computer science and programming – from school level to the level of research papers.**
