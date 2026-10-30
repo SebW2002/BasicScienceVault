@@ -1,0 +1,44 @@
+# BasicScienceVault – Python environment for all Python topics (Py01–Py13)
+# Create:   mamba env create -f setup/environment.yml      (or: conda env create -f ...)
+# Activate: conda activate bsv
+# Update:   mamba env update -f setup/environment.yml --prune
+# Not included on purpose: PsychoPy (use the standalone installer), PyTorch (install
+# separately for your hardware, see the setup guide), NEURON on Windows (installer).
+name: bsv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # core scientific stack (Py05–Py08)
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  # notebooks and tooling (Py01, Py13)
+  - jupyterlab
+  - ipykernel
+  - pytest
+  - ruff
+  # file formats (Py04)
+  - h5py
+  - zarr
+  - pyarrow
+  - openpyxl
+  - pynwb
+  # neuroscience packages (Py10)
+  - mne
+  - mne-bids
+  - nibabel
+  - nilearn
+  - spikeinterface
+  - brian2
+  - dandi
+  - nipype
+  - pip
+  - pip:
+      - mne-icalabel
+      - neo
+      - elephant
